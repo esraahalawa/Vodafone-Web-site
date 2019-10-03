@@ -1,0 +1,750 @@
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+ {
+  color:red;
+  background-color: transparent;
+}
+.navbar-default
+{
+    padding: 16px;
+    background-color: #333;
+    border-color: #e7e7e7;
+}
+.navbar-brand img
+{
+    width: 55%;
+    margin-top: -18%; 
+}
+.navbar-nav
+{
+    font-size: 23px; 
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover,
+ .dropdown-menu > .active > a:focus
+ {
+    background-color: #f11620;
+
+ }
+ .open > .dropdown-menu
+ {
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: -175px; 
+ }
+ .navbar-nav > li > .dropdown-menu
+ {
+     margin-top: 17px;
+     background-color: #928e8e;
+
+ }
+ .navbar-default .navbar-nav > li > a
+  {
+    color: white;
+  }
+  .artical
+  {
+    width: 100%;
+    height: 185px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 0%;
+    margin-top: 0px;
+    padding: 50px;
+    display: none;
+    padding-top: 75px; 
+  }
+  .artical .list-unstyled
+  {
+    margin-top: 31px;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .artical .list-unstyled li
+  {
+    float: left;
+  }
+  .artical a
+  {
+    color: white;
+    margin-left: 47px;
+  }
+.dropdown-menu li
+{
+    margin-left: 40px;
+    font-size: 20px
+}
+.carousel-caption
+{
+    background-color: red;
+    opacity: .7;
+}
+.carousel-caption h1
+{
+    font-size: 43px;
+    font-weight: 600;  
+}
+.about-us .about
+{
+    background-color:#e81212;
+    height: 449px;
+    margin-top: 28px;
+    border-radius: 3%;
+  
+}
+.about-us .about img
+{
+    border-radius: 3%;
+    width: 100%;
+    height: 354px;
+}
+.about-us .about a
+{
+    color: white;
+
+}
+.about-us h2
+{
+    text-align: center;
+    font-size: 59px;
+    font-family: monospace;
+}
+.about-us .about p
+{
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 18px;
+    font-weight: 700;
+}
+.about-us .about a:hover
+{
+    text-decoration: none
+}
+.glyphicon {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 30px;
+    height: 30px;
+    color: red
+}
+.about-us .abouts .col-lg-4 img
+{
+    height: 229px;
+ 
+}
+.about-us .col-lg-4
+{
+    height: 326px;
+  
+}
+.join-us .join h1
+{
+    text-align: center;
+    font-size: 59px;
+    font-family: monospace;
+    color: black;
+    padding-top: 38px;
+
+}
+.join-us .join
+{
+    background-color: #cccccc2b;
+    height: 700px;
+    margin-top: 28px;
+    border-radius: 1%
+}
+.join-us .join img
+{
+    width: 100%;
+    height: 354px;
+}
+.joins
+{
+    margin-left: 34px;
+    margin-right: 52px;
+    background-color: white;
+    height: 452px;
+    border-radius: 3%;
+    width: 95%
+}
+.joins a
+{
+color: #999
+}
+.joins p
+{
+    
+    margin-left: 20px;
+    font-size: 27px;
+    margin-top: 15px;
+}
+.join-us .join a:hover
+{
+    text-decoration: none
+}
+.joins a:hover
+{
+    text-decoration: none
+}
+.footer-us
+{
+    margin-top: 10%;
+    background-color: #333;
+    min-height: 620px;
+}
+.footer .list-unstyled a
+{
+    float:none;
+    color: white
+}
+
+.footers .list-unstyled img
+{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+
+}
+.footers .list-unstyled a
+{
+    float: left;
+    margin-left: 25px;
+    margin-top: 41px;
+}
+.footer
+{
+margin-top: 8%
+}
+.footer .list-unstyled li
+{
+    font-size: 18px;
+    color: #9a9898;
+    line-height: 50px;
+}
+.footer .list-unstyled li h2
+{
+    color: red;
+    font-size: 25px
+}
+.info
+{
+    margin-top: 13%
+}
+.info .list-unstyled a
+{
+    float: left;
+    color: white;
+    font-size: 17px
+}
+.info .list-unstyled li
+{
+margin-left: 13px
+}
+.info .list-unstyled li::after
+{
+    content: '|';
+    margin-left: 30px;
+
+}
+.info .list-unstyled li :last-child::after
+{
+    content: '';
+}
+.footer-us p
+{
+    color: #777;
+    padding-top: 5%;
+    font-size: 15px;  
+}
+.footer-us h5
+{
+    float: right;
+    color: white;
+    font-size: 20px;
+}
+
+/*about Us*/
+
+.headers img 
+{
+    width: 100%;
+    height: 600px;
+}
+.header 
+{
+    width: 30%;
+    padding: 10px;
+    margin-top: -19%;
+    margin-left: 54px;
+}
+.header h1
+{
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.header h1:hover
+{
+    color: red;
+}
+.main
+{
+    margin-top: 10%;
+    margin-left: 50px
+}
+.mains .list-unstyled a
+{
+    color: black;
+    float: left;
+}
+.mains .list-unstyled li
+{
+    margin-right: 2px;
+}
+.mains .list-unstyled a:hover
+{
+    text-decoration: none
+}
+.mains .list-unstyled li::after
+{
+    content: '|';
+    margin-left: 10px
+}
+.mains .list-unstyled li:last-child
+{
+    content: ' ';
+}
+.main hr
+{
+    position: relative;
+    top: 14px;
+    right: 3%;
+    width: 100%;
+    border-top: 1px solid #d21414;
+
+}
+.main h2
+{
+    text-align: center;
+    margin-top: 7%;
+    color: #464545;
+    font-size: 25px;
+    line-height: 37px; 
+    text-align: center;
+    margin-top: 7%;
+    color: #464545;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: cursive;
+}
+.main h2:hover
+{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif
+}
+.main .lead
+{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 3%;
+    line-height: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.main h3
+{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.main h3:hover
+{
+    color: red
+}
+.main a
+{
+    float: left;
+    margin-right: 1%;
+    color: #333;
+    font-size: 20px;
+
+}
+.main a:hover
+{
+    text-decoration: none;
+}
+
+.main .list-unstyled
+{
+    margin-left: 2%;
+    margin-top: 3%;   
+}
+.main .list-unstyled .active
+{
+    color: red;
+    font-weight: 800
+}
+.main .row .glyphicon {
+    position: relative;
+    top: -39px;
+    left: 103%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+.main .row
+{
+    margin-top: 8%;
+
+}
+.main .row p
+{
+    margin-top: 17%;
+    font-size: 18px;
+    margin-left: -10%;
+    line-height: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.our-leader
+{
+    background-color: #dedada;
+    margin-top: 5%;
+    height: 531px;
+}
+
+.leaders h1
+{
+text-align: center;
+padding-top: 1%;
+}
+.leaders .row .col-lg-6 img
+{
+    width: 124%;
+    height: 340px;
+
+}
+.leaders .row
+{
+    margin-top: 4%;
+
+}
+.leader
+{
+    background-color: #ece3e3;
+    height: 344px;
+    margin-top: 0%;
+    margin-left: 18%;
+    border: 1px solid #ccc;
+}
+
+.leader h3
+{
+    padding-top: 6%;
+    margin-left: 10%;
+    color: #333;
+}
+.leader .glyphicon
+ {
+    position: relative;
+    top: -31px;
+    left: 61%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 30px;
+    height: 30px;
+    color: #c33636;
+}
+.leader p
+{
+    margin-left: 6%;
+    margin-top: -4%;
+    font-size: 17px;
+    line-height: 29px;
+}
+.fearture
+{
+    margin-top: 8%;
+}
+.fearture h1
+{
+    text-align: center
+}
+.feartures
+{
+    margin-left: 35%;
+}
+.feartures h1
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 22px;
+margin-left: -55%;
+
+}
+
+.feartures img
+{
+    width: 24%;
+    margin-left: 7%; 
+}
+.fearture .row
+{
+    margin-top: 5%
+}
+.feartures .glyphicon
+ {
+    position: relative;
+    top: -29px;
+    left: 42%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 30px;
+    height: 30px;
+    color: red;
+
+ }
+ .feartures p
+ {
+    font-size: 17px;
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 27px
+ }
+ .feartures a
+ {
+     color: #333;
+ }
+ .feartures a:hover
+ {
+     text-decoration: none
+ }
+
+ /* What We do*/
+ .main p
+ {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 8%;
+    line-height: 54px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ }
+ .main img
+ {
+    width: 61%;
+    height: 393px;
+    margin-left: 19%;
+    margin-top: 6%;
+
+ }
+ .main img:hover
+ {
+    transform: scale(1.1);
+ }
+ .main .div1
+ {
+    width: 100%;
+    height: 343px;
+    background-color: #333;
+ }
+.main .div1 img
+{
+    width: 28%;
+    margin-left: 31%;
+    margin-top: 6%;
+    height: 100px;
+}
+
+
+.main .div1 h4
+{
+    color: red;
+    margin-left: 33%;
+    margin-top: 10%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.main .div1 p
+{
+    margin-top: 8%;
+    font-size: 20px;
+    margin-left: -4%;
+    line-height: 33px;
+    font-family: initial;
+    color: white;
+}
+.main .center-block
+{
+    padding-top: 19%;
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.main h5
+{
+    text-align: center;
+    padding-top: 7%;
+    font-size: 22px;
+    color: #555;
+}
+.leader-us
+{
+
+}
+.leader-us .leaders img
+{
+    width: 66%;
+    height: 365px;
+    margin-top: 3%;
+    margin-left: 19%;
+}
+.leader-us .leaders h1
+{
+    text-align: center;
+    padding-top: 1%;  
+}
+.leader-us .leaders h1:hover
+{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.leader-us .leaders .lead
+{
+    text-align: center;
+    padding-top: 2%;
+    line-height: 34px;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+.leader-us .div2
+{
+    margin-left: 31%;
+ 
+}
+.leader-us .div2 img
+{
+    width: 25%;
+    margin-left: 14%;
+}
+.leader-us .div2 h2
+{
+    font-size: 30px;
+    color: #777;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+.leader-us .div2 p
+{
+    color: #555;
+    font-size: 20px;
+    margin-top: 8%;
+
+}
+.leader-us p
+{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+}
+.leader-us a:hover
+{
+    text-decoration: none
+}
+.info-us h1
+{
+    text-align: center;
+    padding-top: 3%; 
+}
+.info-us h1:hover
+{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.info-us p
+{
+    text-align: center;
+    margin-top: 2%;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 30px;
+}
+.info-us img
+{
+    width: 58%;
+    margin-left: 21%;
+    height: 362px;
+    margin-top: 3%;
+}
+.our-info .info
+{
+    width: 100%
+
+}
+.info img
+{
+    width: 34%;
+    height: 102px;
+}
+.info h3
+{
+    margin-left: 8%;
+    color: #777; 
+}
+.info p
+{
+    margin-top: 10%;
+    margin-left: -13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.info h1
+{
+    color: red
+}
+.our-info .lead
+{
+    padding-top: 29%;
+    margin-left: 21%;
+    line-height: 30px;
+    font-size: 17px;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.our-info a
+{
+    color:#555
+}
+.our-info a:hover
+{
+    text-decoration: none
+}
+.fearture h1:hover
+{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
